@@ -6,25 +6,26 @@
 
 "You need to create a backend server that serves product data via an API endpoint.You may use your AI assistant."
 
+---
 **Getting Started**
 
 *   You can use **Node.js/Express**, **Django**, **Flask**, or any backend framework of your choice.
 *   Use your preferred AI assistant (GitHub Copilot, ChatGPT, Claude, Cursor, etc.) to collaboratively design and develop the solution
-
+---
 **Your Challenge**
 
 Create a backend server with the following functionality:
 
-*   Set up a **localhost server** with an endpoint **/api/products** to serve the provided JSON data.
-*   Use the JSON data format provided in the **data.json** file.
+1.   Set up a **localhost server** with an endpoint **/api/products** to serve the provided JSON data.
+2.   Use the JSON data format provided in the **data.json** file.
 
-1.  Get Data Endpoint with a filtering option:
+3.  Get Data Endpoint with a filtering option:
 
 *   Add query parameters to the **/api/products** endpoint to filter products based on:
     *   **Price** (price <= 100)
     *   **Average review rating** (rating >= 3)
 
-2.  Suggestion Endpoint:
+4.  Suggestion Endpoint:
 
 *   Implement another endpoint **/api/suggestions** that accepts a customer’s budget as a query parameter and returns combinations of two products whose prices are equal to or below the budget. \*Ignore the discount, use the price as is.
     *   Example input: **budget = 10**
@@ -45,10 +46,10 @@ Create a backend server with the following functionality:
   ]
 }
 ```
-3. Error Handling:
+5. Error Handling:
 Handle cases where the request is invalid, or no data matches the filters or budget constraints. For example, query params for only price and rating. <br/>
 
-4. Code Quality:
+6. Code Quality:
 Follow good coding practices with clear file and code structure.
 Ensure the code is modular and easy to maintain.
 JSON Data Format
@@ -78,12 +79,12 @@ Use the following JSON data format for the task:
   "total": 194
 }
 ```
-
+---
 **Success Criteria** <br/>
 ✅ Successfully set up a backend server with endpoints to serve product data <br/>
 ✅ Handle filtering and suggestion logic efficiently <br/>
 ✅ Implement error handling for invalid requests or empty results <br/>
 ✅ Optimise code structure and readability <br/>
 ✅ Follow good coding practices <br/><br/>
-
+---
 Good luck! Remember, we're interested in your process as much as your final solution.
