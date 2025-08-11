@@ -177,10 +177,12 @@ Create a page with the following functionality:
 ```
 ---
 **Success Criteria** <br/>
+
 ✅ Successfully fetch and display product data in a table <br/>
 ✅ Handle API errors gracefully <br/>
 ✅ Implement additional logic <br/>
 ✅ Improve table styling and UI/UX <br/>
 ✅ Follow good coding practices with clear file and code structure <br/><br/>
+
 ---
 Good luck! Remember, we're interested in your process as much as your final solution.
