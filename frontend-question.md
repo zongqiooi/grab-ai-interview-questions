@@ -16,18 +16,18 @@
 
 Create a page with the following functionality:
 
-*   **Fetch product data**:
+1.   **Fetch product data**:
     *   Use the API endpoint:
         *   Sample: <https://dummyjson.com/products>
         *   API Docs: <https://dummyjson.com/docs/products>
     *   No API key is required for this free testing API.
-*   **Display all the data in a table**:
+2.   **Display all the data in a table**:
     *   Include product details such as **title**, **description**, **price**, and **category**.
-*   **Styling**:
+3.   **Styling**:
     *   Improve the table's UI/UX for better readability and user experience.
-*   **Proper Error Handling**:
+4.   **Proper Error Handling**:
     *   Handle cases where the API request fails or returns invalid data.
-*   **Additional Logic**:
+5.   **Additional Logic**:
     *   Add a new column, “**average\_review”,** to display the average score of the reviews of each product.
         *   This is to be derived from the “**reviews**” column data.
     *   Implement a **frontend** search feature based on **title**.
