@@ -24,7 +24,7 @@ Create a backend server with the following functionality:
     *   **Price** (price <= 100)
     *   **Average review rating** (rating >= 3)
 
-1.  Suggestion Endpoint:
+2.  Suggestion Endpoint:
 
 *   Implement another endpoint **/api/suggestions** that accepts a customer’s budget as a query parameter and returns combinations of two products whose prices are equal to or below the budget. \*Ignore the discount, use the price as is.
     *   Example input: **budget = 10**
@@ -45,9 +45,10 @@ Create a backend server with the following functionality:
   ]
 }
 ```
-Error Handling:
-Handle cases where the request is invalid, or no data matches the filters or budget constraints. For example, query params for only price and rating.
-Code Quality:
+3. Error Handling:
+Handle cases where the request is invalid, or no data matches the filters or budget constraints. For example, query params for only price and rating. <br/>
+
+4. Code Quality:
 Follow good coding practices with clear file and code structure.
 Ensure the code is modular and easy to maintain.
 JSON Data Format
