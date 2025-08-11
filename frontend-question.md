@@ -33,13 +33,13 @@ Create a page with the following functionality:
 ---
 **API Information**
 
-**Endpoint**: <https://dummyjson.com/products>
+- **Endpoint**: <https://dummyjson.com/products>
 
-**API Docs**: <https://dummyjson.com/docs/products>
+- **API Docs**: <https://dummyjson.com/docs/products>
 
-**Method**: GET
+- **Method**: GET
 
-**Expected Response Format**:
+- **Expected Response Format**:
 
 ```json
 {
