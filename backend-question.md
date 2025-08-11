@@ -4,7 +4,7 @@
 
 **Task**
 
-"You need to create a backend server that serves product data via an API endpoint.You may use your AI assistant."
+"You need to create a backend server that serves product data via an API endpoint. You may use your AI assistant."
 
 ---
 **Getting Started**
