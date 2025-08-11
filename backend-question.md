@@ -16,16 +16,15 @@
 
 Create a backend server with the following functionality:
 
-1.   Set up a **localhost server** with an endpoint **/api/products** to serve the provided JSON data.
-2.   Use the JSON data format provided in the **data.json** file.
+1.  Set up a **localhost server** with 2 endpoints to serve the provided JSON data. The JSON data is provided in the **data.json** file
 
-3.  Get Data Endpoint with a filtering option:
+2.  1st Endpoint: Get data endpoint with a filtering option (**/api/products**):
 
 *   Add query parameters to the **/api/products** endpoint to filter products based on:
     *   **Price** (price <= 100)
     *   **Average review rating** (rating >= 3)
 
-4.  Suggestion Endpoint:
+3.  2nd Endpoint: Suggestion Endpoint (**/api/suggestions**):
 
 *   Implement another endpoint **/api/suggestions** that accepts a customer’s budget as a query parameter and returns combinations of two products whose prices are equal to or below the budget. \*Ignore the discount, use the price as is.
     *   Example input: **budget = 10**
@@ -46,10 +45,10 @@ Create a backend server with the following functionality:
   ]
 }
 ```
-5. Error Handling:
+4. Error Handling:
 Handle cases where the request is invalid, or no data matches the filters or budget constraints. For example, query params for only price and rating. <br/>
 
-6. Code Quality:
+5. Code Quality:
 Follow good coding practices with clear file and code structure.
 Ensure the code is modular and easy to maintain.
 JSON Data Format
