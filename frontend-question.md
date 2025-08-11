@@ -17,8 +17,7 @@
 Create a page with the following functionality:
 
 1.   **Fetch product data**:
-    *   Use the API endpoint:
-        *   Sample: <https://dummyjson.com/products>
+        *   Use this API endpoint, sample: <https://dummyjson.com/products>
         *   API Docs: <https://dummyjson.com/docs/products>
         * No API key is required for this free testing API.
 2.   **Display all the data in a table**:
