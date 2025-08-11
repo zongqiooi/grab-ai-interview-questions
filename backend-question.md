@@ -44,6 +44,7 @@ Create a backend server with the following functionality:
     ... 
   ]
 }
+```
 Error Handling:
 Handle cases where the request is invalid, or no data matches the filters or budget constraints. For example, query params for only price and rating.
 Code Quality:
@@ -52,6 +53,7 @@ Ensure the code is modular and easy to maintain.
 JSON Data Format
 
 Use the following JSON data format for the task:
+```json
 {
   "products": [
     {
@@ -76,11 +78,11 @@ Use the following JSON data format for the task:
 }
 ```
 
-**Success Criteria** \n
-✅ Successfully set up a backend server with endpoints to serve product data \n
-✅ Handle filtering and suggestion logic efficiently \n
-✅ Implement error handling for invalid requests or empty results \n
-✅ Optimise code structure and readability \n
-✅ Follow good coding practices \n\n
+**Success Criteria** <br/>
+✅ Successfully set up a backend server with endpoints to serve product data <br/>
+✅ Handle filtering and suggestion logic efficiently <br/>
+✅ Implement error handling for invalid requests or empty results <br/>
+✅ Optimise code structure and readability <br/>
+✅ Follow good coding practices <br/><br/>
 
 Good luck! Remember, we're interested in your process as much as your final solution.
