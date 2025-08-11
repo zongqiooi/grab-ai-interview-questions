@@ -6,11 +6,12 @@
 
 "You need to create a frontend table that displays product data fetched from an API. Use your AI assistant to help you implement and optimize this feature."
 
+---
 **Getting Started**
 
 *   You can use **React/Angular/Next/Vanilla JS** or any frameworks for the frontend.
 *   Use your preferred AI assistant (GitHub Copilot, ChatGPT, Claude, Cursor, etc.) to collaboratively code the solution.
-
+---
 **Your Challenge**
 
 Create a page with the following functionality:
@@ -24,13 +25,13 @@ Create a page with the following functionality:
     *   Include product details such as **title**, **description**, **price**, and **category**.
 *   **Styling**:
     *   Improve the table's UI/UX for better readability and user experience.
+*   **Proper Error Handling**:
+    *   Handle cases where the API request fails or returns invalid data.
 *   **Additional Logic**:
     *   Add a new column, “**average\_review”,** to display the average score of the reviews of each product.
         *   This is to be derived from the “**reviews**” column data.
     *   Implement a **frontend** search feature based on **title**.
-*   **Proper Error Handling**:
-    *   Handle cases where the API request fails or returns invalid data.
-
+---
 **API Information**
 
 **Endpoint**: <https://dummyjson.com/products>
@@ -174,12 +175,12 @@ Create a page with the following functionality:
   "limit": 30
 }
 ```
-
+---
 **Success Criteria** <br/>
 ✅ Successfully fetch and display product data in a table <br/>
 ✅ Handle API errors gracefully <br/>
 ✅ Implement additional logic <br/>
 ✅ Improve table styling and UI/UX <br/>
 ✅ Follow good coding practices with clear file and code structure <br/><br/>
-
+---
 Good luck! Remember, we're interested in your process as much as your final solution.
