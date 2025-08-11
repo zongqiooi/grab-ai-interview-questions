@@ -20,15 +20,15 @@ Create a backend server with the following functionality:
 
 2.  1st Endpoint: Get data endpoint with a filtering option (**/api/products**):
 
-*   Add query parameters to the **/api/products** endpoint to filter products based on:
-    *   **Price** (price <= 100)
-    *   **Average review rating** (rating >= 3)
+    *   Add query parameters to the **/api/products** endpoint to filter products based on:
+        *   **Price** (price <= 100)
+        *   **Average review rating** (rating >= 3)
 
 3.  2nd Endpoint: Suggestion Endpoint (**/api/suggestions**):
 
-*   Implement another endpoint **/api/suggestions** that accepts a customer’s budget as a query parameter and returns combinations of two products whose prices are equal to or below the budget. \*Ignore the discount, use the price as is.
-    *   Example input: **budget = 10**
-    *   Example output:
+    *   Implement another endpoint **/api/suggestions** that accepts a customer’s budget as a query parameter and returns combinations of two products whose prices are equal to or below the budget. \*Ignore the discount, use the price as is.
+        *   Example input: **budget = 10**
+        *   Example output:
 
 ```json
 {
@@ -85,5 +85,6 @@ Use the following JSON data format for the task:
 ✅ Implement error handling for invalid requests or empty results <br/>
 ✅ Optimise code structure and readability <br/>
 ✅ Follow good coding practices <br/><br/>
+
 ---
 Good luck! Remember, we're interested in your process as much as your final solution.
